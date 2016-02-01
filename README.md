@@ -3,3 +3,5 @@ A module for the Xposed module. It logs SSL traffic and hash routines for the IN
 
 The CommDumper.apk only logs the SSL traffic.
 The ComDumper.apk logs the SSL traffic and hash routines.
+
+Credit to Carlo Meijer for writing the APK.
