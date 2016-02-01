@@ -1,0 +1,295 @@
+12-08 13:28:48.939 I/[SystemUI]RecentsView(1443): onTaskViewClicked, task key : Task.Key: 675, u: 0, lat: 1449577301788, com.ing.mobilepayments, activityLabel : Betalen
+12-08 13:28:48.960 I/[SystemUI]RecentsView(1443): Launch task: Task (675): com.ing.mobilepayments [com.android.systemui.recents.model.Task@13088223]
+12-08 13:28:48.960 I/[SystemUI]RecentsView(1443):     .key: Task.Key: 675, u: 0, lat: 1449577301788, com.ing.mobilepayments
+12-08 13:28:49.207 D/HostEmulationManager(1923): Binding to service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-08 13:28:49.218 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x8000, pkg=com.ing.mobilepayments
+12-08 13:28:49.222 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:28:49.399 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:28:49.774 I/Timeline(1201): Timeline: Activity_windows_visible id: ActivityRecord{12f24669 u0 com.ing.mobilepayments/o.ᔁ t675} time:131922597
+12-08 13:28:53.153 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=131925974243000, eventTime=131925974243000, pointerCount=1
+12-08 13:28:53.235 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=131925974243000, eventTime=131926057643000, pointerCount=1
+12-08 13:28:53.574 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=131926396725000, eventTime=131926396725000, pointerCount=1
+12-08 13:28:53.638 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=131926396725000, eventTime=131926460380000, pointerCount=1
+12-08 13:28:53.964 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=131926786867000, eventTime=131926786867000, pointerCount=1
+12-08 13:28:54.038 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=131926786867000, eventTime=131926861039000, pointerCount=1
+12-08 13:28:54.305 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=131927127455000, eventTime=131927127455000, pointerCount=1
+12-08 13:28:54.360 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=131927127455000, eventTime=131927182309000, pointerCount=1
+12-08 13:29:15.309 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:29:15.903 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:29:15.924 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:29:15.993 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:29:16.660 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:29:16.673 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-08 13:29:26.436 D/com.ing.mobilepayments(2372): (static) >> 
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >> {
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>         {
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100077251203",
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>         }
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-08 13:29:26.437 D/com.ing.mobilepayments(2372): (static) >> }
+12-08 13:29:26.888 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-08 13:29:26.888 D/com.ing.mobilepayments(2372): (static) << Date: Tue, 08 Dec 2015 12:29:22 GMT
+12-08 13:29:26.888 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-08 13:29:26.889 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-08 13:29:26.889 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-08 13:29:26.889 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-08 13:29:26.889 D/com.ing.mobilepayments(2372): (static) << 
+12-08 13:29:28.865 W/PackageManager(1443): Failure retrieving resources for com.ing.mobilepayments: Resource ID #0x0
+12-08 13:29:28.895 D/HostEmulationManager(1923): Unbinding from service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-08 13:29:28.954 W/PackageManager(1443): Failure retrieving resources for com.ing.mobilepayments: Resource ID #0x0
+12-08 13:29:28.985 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ EXITING}
+12-08 13:29:38.810 I/[SystemUI]RecentsView(1443): onTaskViewClicked, task key : Task.Key: 675, u: 0, lat: 1449577768878, com.ing.mobilepayments, activityLabel : Betalen
+12-08 13:29:38.847 I/[SystemUI]RecentsView(1443): Launch task: Task (675): com.ing.mobilepayments [com.android.systemui.recents.model.Task@321bc7c5]
+12-08 13:29:38.847 I/[SystemUI]RecentsView(1443):     .key: Task.Key: 675, u: 0, lat: 1449577768878, com.ing.mobilepayments
+12-08 13:29:39.006 D/HostEmulationManager(1923): Binding to service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-08 13:29:39.013 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x8000, pkg=com.ing.mobilepayments
+12-08 13:29:39.018 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:29:39.120 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:29:39.480 I/Timeline(1201): Timeline: Activity_windows_visible id: ActivityRecord{12f24669 u0 com.ing.mobilepayments/o.ᔁ t675} time:131972303
+12-08 13:30:25.085 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:30:27.283 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:30:27.297 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:01.105 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132053916465000, eventTime=132053916465000, pointerCount=1
+12-08 13:31:01.191 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132053916465000, eventTime=132054009595000, pointerCount=1
+12-08 13:31:01.514 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132054335527000, eventTime=132054335527000, pointerCount=1
+12-08 13:31:01.608 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132054335527000, eventTime=132054430704000, pointerCount=1
+12-08 13:31:01.853 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132054673164000, eventTime=132054673164000, pointerCount=1
+12-08 13:31:01.924 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132054673164000, eventTime=132054746859000, pointerCount=1
+12-08 13:31:02.181 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132055001135000, eventTime=132055001135000, pointerCount=1
+12-08 13:31:02.284 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132055001135000, eventTime=132055106222000, pointerCount=1
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 212
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> 
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >> {
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >>         {
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100078251203",
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >>             "reason": "paymentTransactionDone",
+12-08 13:31:08.775 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-08 13:31:08.776 D/com.ing.mobilepayments(2372): (static) >>         }
+12-08 13:31:08.776 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-08 13:31:08.776 D/com.ing.mobilepayments(2372): (static) >> }
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << Date: Tue, 08 Dec 2015 12:31:04 GMT
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-08 13:31:09.108 D/com.ing.mobilepayments(2372): (static) << 
+12-08 13:31:09.226 D/HostEmulationManager(1923): Unbinding from service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apaca,0,0,0,0,1449577291008&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577291009&eor=1 HTTP/1.1
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:15.214 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!sl8HZ3sFI3YUOqEV5Le6jgcG+zHt1IbOLdITEPAxcww18IyvO9/qjUCPqAqaOaIYddH3Tr+AH40w; path=/
+12-08 13:31:15.260 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:15.261 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:15.276 I/GCM     (13182): GCM message com.ing.mobilepayments 0:1449577870870028%baf2d2e8f9fd7ecd
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apaca,0,0,0,0,1449577729047&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577729048&eor=1 HTTP/1.1
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:15.385 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!IrGKOmceWFAYRP8V5Le6jgcG+zHt1Dx2RW3cyK3jTKMGNNAoSi/FR081mkVgpQS93Yo7FdAfm8ke; path=/
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:15.474 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apape,0,0,0,0,1449577734362&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577734362&eor=1 HTTP/1.1
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:15.590 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:15.678 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!m33KGKKq6MU1XCoV5Le6jgcG+zHt1M/v9Jcu51VqxzXAMgsf8yRnPDSxd7sP7ecPnkPSfhwjpcMt; path=/
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:15.679 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apaca,0,0,0,0,1449577778928&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577778928&eor=1 HTTP/1.1
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:15.790 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!Fs4SN0oALpcFsscV5Le6jgcG+zHt1C/5ypqZRWgnv3nPxPvrwucrWX7JoNDGYiF9dMK34WkSulvg; path=/
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:15.886 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apape,0,0,0,0,1449577862285&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577862286&eor=1 HTTP/1.1
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:16.001 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:10 GMT
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!lEQSv22w5oIZHPUV5Le6jgcG+zHt1F2t642KKcocpukVVfFG9KxExANRFogtV0fl/kVOBZCwAeay; path=/
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:16.089 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:16.198 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132069019421000, pointerCount=1
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> GET /722906798759289/wt?p=302,mobe%3Apmfc,0,0,0,0,1449577868361&1.0.0.0=1.0.0.0&one=0&ps=0&eid=6144474512210853341&X-WT-UA=Tracking+Library+3.2%28Linux%3B+Android+5.0.2%3B+LG-D405%3B+nl_NL%29&cp5=Mobiel+Betalen+App&mts=1449577868362&eor=1 HTTP/1.1
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> User-Agent: Tracking Library 3.2(Linux; Android 5.0.2; LG-D405; nl_NL)
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> Host: mon.ingservices.nl
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> Connection: Keep-Alive
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> Accept-Encoding: gzip
+12-08 13:31:16.206 D/com.ing.mobilepayments(2372): (global) >> 
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/command HTTP/1.1
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> X-GD-MasterCard-Authentication-Code: 54fd2c180c01296ac69c8e27bc1d555e974a802c70686dc2abc6a9b3ffd6c2ce
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 153
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-08 13:31:16.274 D/com.ing.mobilepayments(2372): (static) >> 
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >> {
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >>     "masterCardRMSessionSetup": {
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >>         "CMSMPA_ID": "48884B63133741008ADBE0B18629A428",
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >>         "RNS_MsgID": "a9b4887bf5a06edd9db55666cd8e"
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >>     }
+12-08 13:31:16.278 D/com.ing.mobilepayments(2372): (static) >> }
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << HTTP/1.1 200 OK
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Expires: Mon, 26 Jul 1997 05:00:00 GMT
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, private, post-check=0, pre-check=0
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Pragma: no-cache
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Last-Modified: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << P3P: policyref="http://track.webtrekk.de/w3c/p3p.xml", CP="NOI DSP IND COM NAV INT"
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Content-Type: image/gif;charset=UTF-8
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Content-Length: 43
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Date: Tue, 08 Dec 2015 12:31:11 GMT
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Server: q3/9/nio
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << Set-Cookie: wt_nbg_Q3=!ARv92cHYW+Sk9vcV5Le6jgcG+zHt1BxwG6ncNxUCms58u+zF1mi5Ctk8CZlmBvUH9W7s2K48AQzN; path=/
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << 
+12-08 13:31:16.293 D/com.ing.mobilepayments(2372): (global) << GIF89a
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 200 OK
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << Date: Tue, 08 Dec 2015 12:31:12 GMT
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << Content-Type: application/vnd.gd.cps-mc-e-data
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << Content-Length: 336
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << 
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << 
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << �XƬ1~
+12-08 13:31:16.584 D/com.ing.mobilepayments(2372): (static) << }B"7P�2�<�!����9j�v^�ǝħDM��<s,��4@%&,Z�fW�8��S���KKx�����]]�b;�Y���NH=9��>Ƒ���2h,Ll����{�s�� U��GT�?�
+12-08 13:31:16.798 D/SplitWindow(1201): check instance of lgWin Window{307a5292 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:16.805 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:16.805 D/InputDispatcher(1201): Focus entered window: Window{307a5292 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/activation-proof HTTP/1.1
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/vnd.gd.cps-mc-e-data
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> X-GD-MasterCard-Authentication-Code: 54fd2c180c01296ac69c8e27bc1d555e974a802c70686dc2abc6a9b3ffd6c2ce
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 53
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> 
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> 
+12-08 13:31:17.343 D/com.ing.mobilepayments(2372): (static) >> �&-�J:q���d����*�n�N���LQ�I�ZZo��ȯ��X݁�
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 204 No Content
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << Date: Tue, 08 Dec 2015 12:31:13 GMT
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-08 13:31:17.839 D/com.ing.mobilepayments(2372): (static) << 
+12-08 13:31:20.202 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132073024101000, pointerCount=1
+12-08 13:31:20.325 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132073147996000, pointerCount=1
+12-08 13:31:21.374 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132074196645000, pointerCount=1
+12-08 13:31:21.393 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132074214019000, pointerCount=1
+12-08 13:31:21.586 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132074399517000, pointerCount=1
+12-08 13:31:21.695 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132074514160000, pointerCount=1
+12-08 13:31:21.703 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132074524243000, pointerCount=1
+12-08 13:31:21.897 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132074715010000, pointerCount=1
+12-08 13:31:22.302 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132075117656000, pointerCount=1
+12-08 13:31:22.399 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132075217565000, pointerCount=1
+12-08 13:31:22.715 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132075529022000, pointerCount=1
+12-08 13:31:22.724 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132075544645000, pointerCount=1
+12-08 13:31:22.775 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132069019421000, eventTime=132075589311000, pointerCount=1
+12-08 13:31:22.809 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132075627338000, pointerCount=1
+12-08 13:31:23.071 D/InputTransport(1201): channel '395359a1 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132069019421000, eventTime=132075888477000, pointerCount=1
+12-08 13:31:27.245 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=132080062785000, eventTime=132080062785000, pointerCount=1
+12-08 13:31:27.306 D/InputTransport(1201): channel '307a5292 com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=132080062785000, eventTime=132080124793000, pointerCount=1
+12-08 13:31:27.334 D/InputDispatcher(1201): Focus left window: Window{307a5292 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:27.334 D/InputDispatcher(1201): Focus entered window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:27.334 D/InputDispatcher(1201): Window went away: Window{307a5292 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:27.342 I/Timeline(2372): Timeline: Activity_launch_request id:com.ing.mobilepayments time:132080165
+12-08 13:31:27.351 I/ActivityManager(1201): START u0 {flg=0x14000000 cmp=com.ing.mobilepayments/.sa} from uid 10094 on display 0
+12-08 13:31:27.389 D/InputDispatcher(1201): Focus left window: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:27.436 D/ContextHelper(2372): convertTheme. context->name=com.ing.mobilepayments themeResourceId=16973909
+12-08 13:31:27.444 I/Timeline(2372): Timeline: Activity_launch_request id:com.ing.mobilepayments time:132080267
+12-08 13:31:27.445 I/ActivityManager(1201): START u0 {flg=0x14000000 cmp=com.ing.mobilepayments/o.Ƭ} from uid 10094 on display 0
+12-08 13:31:27.475 D/ContextHelper(2372): convertTheme. context->name=com.ing.mobilepayments themeResourceId=2131558545
+12-08 13:31:27.586 D/SplitWindow(1201): check instance of lgWin Window{5d6aaaf u0 com.ing.mobilepayments/o.Ƭ}
+12-08 13:31:27.642 I/SystemUI[Framework](1201): PhoneWindowManager.updateSystemUiVisibilityLw() :visibility=0x0, pkg=com.ing.mobilepayments
+12-08 13:31:27.648 D/InputDispatcher(1201): Focus entered window: Window{5d6aaaf u0 com.ing.mobilepayments/o.Ƭ}
+12-08 13:31:27.737 I/ActivityManager(1201): Displayed com.ing.mobilepayments/o.Ƭ: +281ms (total +332ms)
+12-08 13:31:28.491 I/Timeline(1201): Timeline: Activity_windows_visible id: ActivityRecord{3f689c53 u0 com.ing.mobilepayments/o.Ƭ t675} time:132081313
+12-08 13:31:28.516 D/InputDispatcher(1201): Window went away: Window{395359a1 u0 com.ing.mobilepayments/o.ᔁ}
+12-08 13:31:51.440 D/InputDispatcher(1201): Focus left window: Window{5d6aaaf u0 com.ing.mobilepayments/o.Ƭ}
+12-08 13:31:53.012 D/InputDispatcher(1201): Window went away: Window{5d6aaaf u0 com.ing.mobilepayments/o.Ƭ}

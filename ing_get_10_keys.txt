@@ -1,0 +1,318 @@
+12-06 16:21:59.693 D/HostEmulationManager(1923): Unbinding from service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-06 16:23:42.532 D/HostEmulationManager(1923): Binding to service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-06 16:23:42.694 I/Timeline(1201): Timeline: Activity_windows_visible id: ActivityRecord{26d37229 u0 com.ing.mobilepayments/o.ᔁ t605} time:82175642
+12-06 16:23:44.116 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=82177059180000, eventTime=82177059180000, pointerCount=1
+12-06 16:23:44.185 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=82177059180000, eventTime=82177133244000, pointerCount=1
+12-06 16:23:44.379 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=82177326838000, eventTime=82177326838000, pointerCount=1
+12-06 16:23:44.484 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=82177326838000, eventTime=82177431684000, pointerCount=1
+12-06 16:23:44.582 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=82177529403000, eventTime=82177529403000, pointerCount=1
+12-06 16:23:44.677 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=82177529403000, eventTime=82177624205000, pointerCount=1
+12-06 16:23:44.846 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_DOWN, downTime=82177793725000, eventTime=82177793725000, pointerCount=1
+12-06 16:23:44.920 D/InputTransport(1201): channel '7d1156b com.ing.mobilepayments/o.ᔁ (server)' : action=ACTION_UP, downTime=82177793725000, eventTime=82177867239000, pointerCount=1
+12-06 16:24:23.056 W/PackageManager(1443): Failure retrieving resources for com.ing.mobilepayments: Resource ID #0x0
+12-06 16:24:23.089 D/HostEmulationManager(1923): Unbinding from service ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.ts}
+12-06 16:24:23.158 D/InputDispatcher(1201): Focus left window: Window{7d1156b u0 com.ing.mobilepayments/o.ᔁ EXITING}
+12-06 16:24:23.174 W/PackageManager(1443): Failure retrieving resources for com.ing.mobilepayments: Resource ID #0x0
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:42.814 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF02151009154410006D251128",
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:42.815 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:40 GMT
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:43.365 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF02151009154410006E251128",
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:44.387 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:44.388 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:41 GMT
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:44.695 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:45.230 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:45.230 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:45.230 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:45.230 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:45.233 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:45.233 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:45.233 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:45.233 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:45.233 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF02151009154410006F251128",
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:45.235 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:42 GMT
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:45.527 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:46.165 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100070251128",
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:46.166 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:43 GMT
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:46.485 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100071251128",
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:47.087 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:44 GMT
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:47.438 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:48.032 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:48.034 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:48.034 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100072251129",
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:48.035 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:48.351 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:48.351 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:45 GMT
+12-06 16:24:48.351 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:48.351 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:48.351 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:48.352 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:48.352 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:48.962 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100073251129",
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:48.963 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:46 GMT
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:49.308 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100074251129",
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:49.894 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:47 GMT
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:50.216 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:50.807 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:50.807 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:50.807 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:50.807 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:50.807 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100075251129",
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:50.808 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:48 GMT
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:51.153 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/keytokens HTTP/1.1
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 206
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:51.737 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>     "masterCardSUKStates": [
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>         {
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>             "DC_SUK_ID": "7B894B5C7934E9BCFFFF021510091544100076251129",
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>             "reason": "applicationAbort",
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>             "state": "consumed"
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>         }
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >>     ]
+12-06 16:24:51.741 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 202 Accepted
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:49 GMT
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:52.096 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:54.322 I/GCM     (25479): GCM message com.ing.mobilepayments 0:1449415484690205%baf2d2e8f9fd7ecd
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/command HTTP/1.1
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/json
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> X-GD-MasterCard-Authentication-Code: 297b48e6d69d4cdf9c1e16ecd416a2b45a39366a9f04dfd4aa7d6c009c811726
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 153
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:55.417 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >> {
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >>     "masterCardRMSessionSetup": {
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >>         "CMSMPA_ID": "48884B63133741008ADBE0B18629A428",
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >>         "RNS_MsgID": "d53fbae445049f3c95fe5664533c"
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >>     }
+12-06 16:24:55.418 D/com.ing.mobilepayments(2372): (static) >> }
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 200 OK
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:53 GMT
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << Content-Type: application/vnd.gd.cps-mc-e-data
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << Content-Length: 2623
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << �[�A�&g�ے�}��
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << !u�f��J�d�l��è_7��5|��+A�oǂM�D�aq��#|NS�衩ǩ�|C�	�
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << ž�������^�	�-4�30��k�ӫk���ale7S�!��s���+��	�{�{~&M�y6�t&�@��JN8�հXIE]��n��^j��/�^<�m44��Dc۟5�(�l��)TO��ۡ��`Frp8lߧ���t���Jy�E�a��V��%�t�A�ݬ�ռPC��5)��X/� VE�4���!����;�
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << �BJvQ+����m���6��)���	gozaA��w���ש+%)g�AJ
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << s[�p�GӤ
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << RX��v�i�D���a��U�����1����z!.��\��p�s�R���Wn(
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << �Z3"�51�+������_o6�U͸8
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << ��泽�1���sr���
+12-06 16:24:56.129 D/com.ing.mobilepayments(2372): (static) << �N���]��X�Kj�^?X���YqK�qR�k�F$'l7�0Si\�
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> POST /c450/mobile-app-gateway/client/48884B63133741008ADBE0B18629A428/cards/476E6BEFA9EC49739BF8F4F63E7CC280/activation-proof HTTP/1.1
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Content-Type: application/vnd.gd.cps-mc-e-data
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> X-GD-MasterCard-Authentication-Code: 297b48e6d69d4cdf9c1e16ecd416a2b45a39366a9f04dfd4aa7d6c009c811726
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Content-Length: 53
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Connection: Keep-Alive
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Accept-Encoding: gzip, deflate
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Accept-Language: en,*
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> User-Agent: Mozilla/5.0
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> Host: tsp-prod-c450.venyonservices.com
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:57.357 D/com.ing.mobilepayments(2372): (static) >> 
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << HTTP/1.1 204 No Content
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << Date: Sun, 06 Dec 2015 15:24:54 GMT
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << Content-Length: 0
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << Keep-Alive: timeout=90, max=100
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << Connection: Keep-Alive
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << Content-Type: text/plain; charset=UTF-8
+12-06 16:24:57.720 D/com.ing.mobilepayments(2372): (static) << 
+12-06 16:25:11.194 D/Finsky  (2187): [27743] VerifyInstalledPackagesTask.doInBackground$4f3371dc: Adding com.ing.mobilepayments for verification
